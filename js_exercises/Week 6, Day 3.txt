@@ -1,0 +1,36 @@
+
+
+function thing() {
+  console.log("Hi there");
+}
+
+thing();
+
+var thing = function() {
+  console.log("Hi there")
+};
+
+thing();
+
+var person = {
+  name: "George",
+  age: "56",
+  print_info: function() {
+    console.log(this.name + " is " this.age + " yearsold.");
+  }
+};
+
+console.log(person.name);
+person.print_info();
+
+
+for(var i = 0; i < 10; i ++) {        <-- equal to a 10 times loop
+ console.log(i);
+}
+
+^^ A for loop gives a start condition (i = 0;), a while condition (i < 10;), and third changes the data after it runs (i++;).
+
+
+1875
+
+cookieclicker.com <- website for practicing hacking
